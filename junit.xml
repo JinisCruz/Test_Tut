@@ -1,0 +1,22 @@
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="4.964378">
+<testsuite name="tests\webserver\server-test.spec.ts" timestamp="2026-02-13T10:40:03.750Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.458" errors="0">
+<testcase name="webserver: laad lokale app correct" classname="tests\webserver\server-test.spec.ts" time="0.458">
+</testcase>
+</testsuite>
+<testsuite name="tests\webserver\server-test.spec.ts" timestamp="2026-02-13T10:40:03.750Z" hostname="firefox" tests="1" failures="0" skipped="0" time="1.066" errors="0">
+<testcase name="webserver: laad lokale app correct" classname="tests\webserver\server-test.spec.ts" time="1.066">
+</testcase>
+</testsuite>
+<testsuite name="tests\webserver\server-test.spec.ts" timestamp="2026-02-13T10:40:03.750Z" hostname="webkit" tests="1" failures="0" skipped="0" time="0.904" errors="0">
+<testcase name="webserver: laad lokale app correct" classname="tests\webserver\server-test.spec.ts" time="0.904">
+</testcase>
+</testsuite>
+<testsuite name="tests\webserver\server-test.spec.ts" timestamp="2026-02-13T10:40:03.750Z" hostname="mobile-chrome" tests="1" failures="0" skipped="0" time="0.602" errors="0">
+<testcase name="webserver: laad lokale app correct" classname="tests\webserver\server-test.spec.ts" time="0.602">
+</testcase>
+</testsuite>
+<testsuite name="tests\webserver\server-test.spec.ts" timestamp="2026-02-13T10:40:03.750Z" hostname="mobile-safari" tests="1" failures="0" skipped="0" time="0.791" errors="0">
+<testcase name="webserver: laad lokale app correct" classname="tests\webserver\server-test.spec.ts" time="0.791">
+</testcase>
+</testsuite>
+</testsuites>
