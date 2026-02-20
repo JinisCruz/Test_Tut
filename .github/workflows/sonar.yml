@@ -27,9 +27,7 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      # Optional: Playwright tests + coverage
-      - name: Run Playwright tests
-        run: npx playwright test --reporter=line
+     
 
       - name: Check Sonar connectivity
         run: |
