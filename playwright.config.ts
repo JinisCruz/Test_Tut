@@ -13,7 +13,7 @@ export default defineConfig({
   // ============================================================
   // 2) RETRIES
   // ============================================================
-  retries: 2, // Extra pogingen in CI
+  //retries: 2, // Extra pogingen in CI
 
   // ============================================================
   // 3) PARALLELISM
@@ -26,7 +26,7 @@ export default defineConfig({
   // ============================================================
   reporter: [
     ['list'],                         // CLI output
-    ['html', { open: 'never' }],      // HTML report
+    ['html'],      // HTML report
     ['junit', { outputFile: 'junit.xml' }] // CI integratie
   ],
 
