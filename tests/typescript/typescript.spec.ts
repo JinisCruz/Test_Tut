@@ -7,13 +7,13 @@ type User = {
 };
 
 function getUser(): User {
-  return { id: 1, name: 'Jonas' };
+  return { id: 1, name: 'Jinis' };
 }
 
 test('typescript: compile-time type checking werkt', async ({ page }) => {
   const u = getUser();
   // TypeScript checkt types nog vóór de test draait
-  expect(u.name).toBe('Jonas');
+  expect(u.name).toBe('Jinis');
 
   await page.goto('https://example.com');
   await expect(page).toHaveTitle(/Example/);
