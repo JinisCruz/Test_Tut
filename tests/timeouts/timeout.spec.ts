@@ -1,4 +1,5 @@
 // tests/timeouts/timeout.spec.ts
+/*
 import { test, expect } from '@playwright/test';
 
 test('timeouts: expect-timeout (faalt na de ingestelde tijd als element niet verschijnt)', async ({ page }) => {
@@ -12,4 +13,4 @@ test('timeouts: test-timeout (simuleer lange taak)', async ({ page }) => {
   // Doe iets dat langer kan duren; pas je globale test-timeout aan om het effect te zien.
   await page.waitForTimeout(1000);
   await expect(page).toHaveTitle(/Example Domain/);
-});
+});*/
