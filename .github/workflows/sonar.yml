@@ -31,6 +31,14 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test --reporter=line
 
+      - name: Check Sonar connectivity
+        run: |
+          echo "Checking $SONAR_HOST_URL"
+          curl -I --fail "$SONAR_HOST_URL/api/server/version"
+        env:
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+
+
       # Nieuwe officiële scan actie
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v6
@@ -40,3 +48,7 @@ jobs:
         env:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+      
+      
+
