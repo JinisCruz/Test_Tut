@@ -29,12 +29,7 @@ jobs:
 
      
 
-      - name: Check Sonar connectivity
-        run: |
-          echo "Checking $SONAR_HOST_URL"
-          curl -I --fail "$SONAR_HOST_URL/api/server/version"
-        env:
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      
 
 
       # Nieuwe officiële scan actie
